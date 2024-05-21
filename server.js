@@ -1,10 +1,12 @@
 // server.js
 const express = require("express");
+const cors = require('cors');
 const { users } = require("./mockData");
 
 const app = express();
 const port = 3000;
 
+app.use(cors());
 // Define routes
 app.get("/api/users", (req, res) => {
   res.json(users);
