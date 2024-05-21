@@ -1,7 +1,7 @@
 // mockData.js
 const users = [
-    { id: 1, name: "John Doe", email: "john@example.com" },
-    { id: 2, name: "Jane Smith", email: "jane@example.com" },
+    { name: "Rajit Kumar", accountNumber: "23456789", bankname: "Abc", accounttype: "Savings" },
+    { name: "Mahesh S", accountNumber: "89765434", bankname: "Xyz", accounttype: "Current" },
     // Add more mock data as needed
   ];
   
